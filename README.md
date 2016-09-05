@@ -1,5 +1,5 @@
 # docker-cluster-template
-Spawn multiple Docker containers that will run with SSH servers
+Spawn multiple Docker containers on the same network, that will just run SSH servers
 
 ```
 docker build -t sshd .

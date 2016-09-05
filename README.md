@@ -1,4 +1,4 @@
-# docker-compose-sample
+# docker-cluster-template
 Spawn multiple Docker containers that will run with SSH servers
 
 ```

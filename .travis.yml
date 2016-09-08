@@ -16,9 +16,9 @@ before_install:
   - docker-compose up -d
   
 script:
-  - sshpass -p 'root' ssh root@172.18.0.10
-  - sshpass -p 'root' ssh root@172.18.0.11
-  - sshpass -p 'root' ssh root@172.18.0.12
+  - sshpass -p 'root' ssh -o StrictHostKeyChecking=no root@172.18.0.10 hostname
+  - sshpass -p 'root' ssh -o StrictHostKeyChecking=no root@172.18.0.11 hostname
+  - sshpass -p 'root' ssh -o StrictHostKeyChecking=no root@172.18.0.12 hostname
   - ping -c 1 172.18.0.10
   - ping -c 1 172.18.0.11
   - ping -c 1 172.18.0.12

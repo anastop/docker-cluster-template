@@ -5,7 +5,7 @@ Spawn multiple Docker containers on the same network, that will just run SSH ser
 
 ```
 docker build -t anastop/sshd .
-docker-compose up -d
+sudo docker-compose up -d
 # do your job on the container cluster
 docker-compose down 
 ```

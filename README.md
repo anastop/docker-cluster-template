@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/anastop/docker-cluster-template.svg?branch=master)](https://travis-ci.org/anastop/docker-cluster-template)
+
 # docker-cluster-template
 Spawn multiple Docker containers on the same network, that will just run SSH servers
 
